@@ -1,0 +1,33 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.bg-cooking {
+  --bs-bg-opacity: 0.7;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.ingredients, .process{
+  text-align: left;
+}
+
+
+/*
+ * Extra utilities
+ */
+.me-md-3 img{
+  max-height: 300px;
+}
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
